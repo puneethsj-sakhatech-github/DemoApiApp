@@ -1,0 +1,9 @@
+package com.api.app.dto;
+
+import com.api.app.modal.UserEntity;
+
+public class LoginDTO {
+
+		boolean status;
+		UserEntity userInfo;
+}

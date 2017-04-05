@@ -1,0 +1,6 @@
+server.context-path=/ApiApp
+server.port=8080
+
+spring.datasource.url = jdbc:mysql://localhost:3306/2mins
+spring.datasource.username = root
+spring.datasource.password = root

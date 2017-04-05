@@ -1,0 +1,12 @@
+package com.api.app.daoimpl;
+
+import com.api.app.dao.LoginDao;
+
+public class LoginDaoImpl implements LoginDao{
+
+	@Override
+	public String login() {
+		return null;
+	}
+
+}

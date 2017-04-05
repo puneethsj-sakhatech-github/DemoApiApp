@@ -1,0 +1,7 @@
+package com.api.app.config;
+
+@Configuration
+@EnableTransactionManagement
+public class DBConfig {
+
+}

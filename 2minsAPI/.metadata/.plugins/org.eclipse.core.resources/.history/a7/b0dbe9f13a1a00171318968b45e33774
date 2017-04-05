@@ -1,0 +1,5 @@
+package com.api.app.config;
+
+public class DBConfig {
+
+}

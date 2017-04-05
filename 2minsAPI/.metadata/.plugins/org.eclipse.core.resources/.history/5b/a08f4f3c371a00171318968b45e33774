@@ -1,0 +1,15 @@
+package com.api.app.daoimpl;
+
+import org.springframework.stereotype.Repository;
+
+import com.api.app.dao.LoginDao;
+
+@Repository
+public class LoginDaoImpl implements LoginDao{
+
+	@Override
+	public String login() {
+		return null;
+	}
+
+}

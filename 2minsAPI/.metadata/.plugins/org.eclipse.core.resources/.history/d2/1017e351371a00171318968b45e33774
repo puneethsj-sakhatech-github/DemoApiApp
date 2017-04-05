@@ -1,0 +1,15 @@
+package com.api.app.serviceimpl;
+
+import org.springframework.stereotype.Service;
+
+import com.api.app.service.LoginService;
+
+@Service
+public class LoginServiceImpl implements LoginService{
+
+	@Override
+	public String login() {
+		return "Success";
+	}
+
+}

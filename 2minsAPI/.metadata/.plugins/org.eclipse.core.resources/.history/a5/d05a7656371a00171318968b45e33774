@@ -1,0 +1,20 @@
+package com.api.app.serviceimpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.api.app.dao.LoginDao;
+import com.api.app.service.LoginService;
+
+@Service
+public class LoginServiceImpl implements LoginService{
+	
+	@Autowired
+	LoginDao loginDao;
+
+	@Override
+	public String login() {
+		return "Success";
+	}
+
+}

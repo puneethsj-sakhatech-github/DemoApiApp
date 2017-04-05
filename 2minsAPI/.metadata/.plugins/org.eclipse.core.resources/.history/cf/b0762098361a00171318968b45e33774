@@ -1,0 +1,13 @@
+package com.api.app.serviceimpl;
+
+import com.api.app.service.LoginService;
+
+public class LoginServiceImpl implements LoginService{
+
+	@Override
+	public String login() {
+		// TODO Auto-generated method stub
+		return "Success";
+	}
+
+}
